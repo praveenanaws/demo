@@ -15,9 +15,6 @@ interface ArticleRepository
      */
     public function getArticles();
 
-    /**
-     * @param string $id
-     * @return Article
-     */
+ 
     public function getArticle($id);
 }
